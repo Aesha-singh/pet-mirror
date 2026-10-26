@@ -1,0 +1,33 @@
+{
+  "name": "pet-mirror",
+  "version": "2.0.0",
+  "description": "Webcam-powered virtual pet that reacts to your face and hands, with accounts, evolution, and a global leaderboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "keywords": [
+    "virtual-pet",
+    "mediapipe",
+    "computer-vision",
+    "webcam",
+    "express",
+    "sqlite",
+    "canvas",
+    "vercel"
+  ],
+  "author": "Aesha Singh (https://github.com/Aesha-singh)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aesha-singh/pet-mirror.git"
+  },
+  "homepage": "https://github.com/Aesha-singh/pet-mirror#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
