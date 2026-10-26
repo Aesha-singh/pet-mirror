@@ -4,6 +4,8 @@ node_modules/
 *.db-wal
 *.db-shm
 .env
+.env.local
+.env.*.local
 .vercel/
 .DS_Store
 npm-debug.log*

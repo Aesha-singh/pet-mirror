@@ -25,7 +25,7 @@
     "type": "git",
     "url": "https://github.com/Aesha-singh/pet-mirror.git"
   },
-  "homepage": "https://github.com/Aesha-singh/pet-mirror#readme",
+  "homepage": "https://pet-mirror-ochre.vercel.app",
   "dependencies": {
     "express": "^4.19.2"
   },

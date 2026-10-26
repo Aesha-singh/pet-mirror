@@ -1,8 +1,14 @@
 # Pet Mirror
 
+[![Live demo](https://img.shields.io/badge/live%20demo-pet--mirror-ff8fb0)](https://pet-mirror-ochre.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Aesha--singh%2Fpet--mirror-181717?logo=github)](https://github.com/Aesha-singh/pet-mirror)
+[![License: MIT](https://img.shields.io/badge/license-MIT-ffe27a)](LICENSE)
+
 A webcam-powered virtual pet called **Mochi**. Mochi reacts to your smile, surprise, closed eyes, and hand movement, while a global leaderboard tracks the happiest pets. All computer vision runs locally in your browser — no video is ever uploaded.
 
-> **Live demo:** _coming soon_
+> **Live demo:** [pet-mirror-ochre.vercel.app](https://pet-mirror-ochre.vercel.app)
+>
+> Camera access requires HTTPS (or `localhost`), so use the live URL or a local dev server.
 
 ## Features
 
@@ -91,7 +97,7 @@ Requests to `/api` are rate limited to 60 per minute per IP.
 
 ## Deploy on Vercel
 
-This repository is ready for Vercel's zero-configuration Express support.
+This repository is ready for Vercel's zero-configuration Express support. The production deployment is live at **<https://pet-mirror-ochre.vercel.app>**.
 
 1. Push the repo to GitHub.
 2. Import it at <https://vercel.com/new> (or run `vercel --prod` from the project root).
